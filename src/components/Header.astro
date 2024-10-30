@@ -1,11 +1,15 @@
 ---
 import HeaderLink from "./HeaderLink.astro";
 import { SITE_TITLE } from "../consts";
+import ThemeIcon from "./ThemeIcon.astro";
 ---
 
 <header>
   <nav>
-    <h2><a href="/">{SITE_TITLE}</a></h2>
+    <div class="logo">
+      <ThemeIcon />
+      <h2><a href="/">{SITE_TITLE}</a></h2>
+    </div>
     <div class="internal-links">
       <HeaderLink href="/">Home</HeaderLink>
       <HeaderLink href="/blog">Blog</HeaderLink>
@@ -50,6 +54,10 @@ import { SITE_TITLE } from "../consts";
     background: white;
     box-shadow: 0 2px 8px rgba(var(--black), 5%);
   }
+  .logo {
+    display: flex;
+    align-items: center;
+  }
   h2 {
     margin: 0;
     font-size: 1em;
@@ -75,7 +83,8 @@ import { SITE_TITLE } from "../consts";
     border-bottom-color: var(--accent);
   }
   .social-links,
-  .social-links a {
+  .social-links a,
+  .social-links button {
     display: flex;
   }
   @media (max-width: 720px) {
