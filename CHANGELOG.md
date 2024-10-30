@@ -1,3 +1,15 @@
+## [1.4.1](https://github.com/liskeee/blog/compare/v1.4.0...v1.4.1) (2024-10-30)
+
+### Bug Fixes
+
+- releaserc settings ([ab489d9](https://github.com/liskeee/blog/commit/ab489d9fc5b1856d229ba572ea2f064b0e610eb5))
+
+## [1.4.1](https://github.com/liskeee/blog/compare/v1.4.0...v1.4.1) (2024-10-30)
+
+### Bug Fixes
+
+- releaserc settings ([ab489d9](https://github.com/liskeee/blog/commit/ab489d9fc5b1856d229ba572ea2f064b0e610eb5))
+
 # [1.4.0](https://github.com/liskeee/blog/compare/v1.3.0...v1.4.0) (2024-10-30)
 
 ### Features
