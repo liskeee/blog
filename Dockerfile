@@ -3,14 +3,14 @@ WORKDIR /app
 COPY package.json yarn.lock ./
 
 FROM base AS prod-deps
-RUN npm install --omit=dev
+RUN yarn install --omit=dev
 
 FROM base AS build-deps
-RUN npm install
+RUN yarn install
 
 FROM build-deps AS build
 COPY . .
-RUN npm run build
+RUN yarn build
 
 FROM nginx:alpine AS runtime
 COPY ./nginx/nginx.conf /etc/nginx/nginx.conf
