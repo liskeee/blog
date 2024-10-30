@@ -1,3 +1,10 @@
+## [1.2.1](https://github.com/liskeee/blog/compare/v1.2.0...v1.2.1) (2024-10-30)
+
+
+### Bug Fixes
+
+* ci release push ([fa5504f](https://github.com/liskeee/blog/commit/fa5504fa53b104e25e3f7199a267744d613e84b5))
+
 # [1.2.0](https://github.com/liskeee/blog/compare/v1.1.0...v1.2.0) (2024-10-30)
 
 
