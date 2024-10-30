@@ -1,3 +1,10 @@
+# [1.1.0](https://github.com/liskeee/blog/compare/v1.0.0...v1.1.0) (2024-10-30)
+
+
+### Features
+
+* about page ([c167c54](https://github.com/liskeee/blog/commit/c167c549d72d3fe9204112e1a85658e3323fed7c))
+
 # 1.0.0 (2024-10-30)
 
 
