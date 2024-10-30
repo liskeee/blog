@@ -166,22 +166,8 @@ hr {
   white-space: nowrap;
 }
 
-.button-link {
-  display: inline-flex;
-  padding: 0;
-  margin: 0;
-  border: none;
-  background-color: transparent;
-  text-decoration: none;
-  outline: none;
-  align-items: center;
-  justify-content: center;
-  cursor: pointer;
-}
-
-nav .button-link {
-  padding: 1em 0.5em;
-  color: var(--black);
-  border-bottom: 4px solid transparent;
-  text-decoration: none;
+@media (max-width: 720px) {
+  .only-desktop {
+    display: none !important;
+  }
 }

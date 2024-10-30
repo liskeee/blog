@@ -21,18 +21,25 @@
   #themeToggle {
     border: 0;
     background: none;
+    cursor: pointer;
+  }
+  #themeToggle svg path {
+    fill: var(--black);
+  }
+  #themeToggle:hover svg path {
+    fill: var(--accent-dark);
   }
   .sun {
-    fill: black;
+    display: inline;
   }
   .moon {
-    fill: transparent;
+    display: none;
   }
   :global(.dark) .sun {
-    fill: transparent;
+    display: none;
   }
   :global(.dark) .moon {
-    fill: white;
+    display: inline;
   }
 </style>
 
