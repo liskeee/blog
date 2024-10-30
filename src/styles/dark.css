@@ -1,0 +1,8 @@
+html.dark {
+    --black: #fff;
+    --body-background: #121212;
+    --gray-light: #1E1E1E;
+    --gray-dark: #fff;
+    --gray: #fff;
+    --nav-background: var(--gray-light);
+}
