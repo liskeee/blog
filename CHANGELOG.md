@@ -1,3 +1,11 @@
+## [1.2.4](https://github.com/liskeee/blog/compare/v1.2.3...v1.2.4) (2024-10-30)
+
+
+### Bug Fixes
+
+* double ci release action ([7b5ff11](https://github.com/liskeee/blog/commit/7b5ff1108b22fecdcd9ef5770862a4819ac72288))
+* double ci release action ([abeff83](https://github.com/liskeee/blog/commit/abeff83f77378aae7d7f962610b45b08081934b7))
+
 ## [1.2.3](https://github.com/liskeee/blog/compare/v1.2.2...v1.2.3) (2024-10-30)
 
 
