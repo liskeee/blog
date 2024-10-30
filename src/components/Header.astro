@@ -51,8 +51,7 @@ import ThemeIcon from "./ThemeIcon.astro";
   header {
     margin: 0;
     padding: 0 1em;
-    background: white;
-    box-shadow: 0 2px 8px rgba(var(--black), 5%);
+    background: var(--nav-background);
   }
   .logo {
     display: flex;
@@ -74,7 +73,7 @@ import ThemeIcon from "./ThemeIcon.astro";
   }
   nav a {
     padding: 1em 0.5em;
-    color: var(--black);
+    color: var(--nav-color);
     border-bottom: 4px solid transparent;
     text-decoration: none;
   }
@@ -86,6 +85,9 @@ import ThemeIcon from "./ThemeIcon.astro";
   .social-links a,
   .social-links button {
     display: flex;
+  }
+  .social-links a:hover {
+    color: var(--accent);
   }
   @media (max-width: 720px) {
     .social-links {

@@ -1,19 +1,25 @@
-/*
-  The CSS in this style tag is based off of Bear Blog's default CSS.
-  https://github.com/HermanMartinus/bearblog/blob/297026a877bc2ab2b3bdfbd6b9f7961c350917dd/templates/styles/blog/default.css
-  License MIT: https://github.com/HermanMartinus/bearblog/blob/master/LICENSE.md
- */
-
 :root {
-  --accent: #2337ff;
-  --accent-dark: #000d8a;
-  --black: 15, 18, 25;
-  --gray: 96, 115, 159;
-  --gray-light: 229, 233, 240;
-  --gray-dark: 34, 41, 57;
+  --accent: #f2913d;
+  --accent-dark: #f26835;
+  --black: #0f1219;
+  --gray: #0f1219;
+  --gray-light: #e5e9f0;
+  --gray-dark: #222939;
   --gray-gradient: rgba(var(--gray-light), 50%), #fff;
-  --box-shadow: 0 2px 6px rgba(var(--gray), 25%), 0 8px 24px rgba(var(--gray), 33%),
-    0 16px 32px rgba(var(--gray), 33%);
+
+  --body-background: #fff;
+  --body-color: var(--gray-dark);
+
+  --nav-background: #f7f7f7;
+  --nav-color: var(--gray-dark);
+
+  --heading-color: var(--black);
+  --content-color: var(--gray-dark);
+  --secondary-content-color: var(--gray);
+  --title-color: var(--black);
+
+  --footer-background: var(--nav-background);
+  --footer-color: var(--nav-color);
 }
 @font-face {
   font-family: "Atkinson";
@@ -29,24 +35,31 @@
   font-style: normal;
   font-display: swap;
 }
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
 body {
   font-family: "Atkinson", sans-serif;
   margin: 0;
   padding: 0;
   text-align: left;
-  background: linear-gradient(var(--gray-gradient)) no-repeat;
-  background-size: 100% 600px;
   word-wrap: break-word;
   overflow-wrap: break-word;
-  color: rgb(var(--gray-dark));
+  background: var(--body-background);
+  color: var(--body-color);
   font-size: 20px;
   line-height: 1.7;
+  display: flex;
+  flex-direction: column;
 }
 main {
   width: 720px;
   max-width: calc(100% - 2em);
   margin: auto;
   padding: 3em 1em;
+  flex: 1;
 }
 h1,
 h2,
@@ -55,7 +68,7 @@ h4,
 h5,
 h6 {
   margin: 0 0 0.5rem 0;
-  color: rgb(var(--black));
+  color: var(--heading-color);
   line-height: 1.2;
 }
 h1 {
@@ -81,7 +94,7 @@ a {
   color: var(--accent);
 }
 a:hover {
-  color: var(--accent);
+  color: var(--accent-dark);
 }
 p {
   margin-bottom: 1em;
@@ -106,7 +119,7 @@ img {
 }
 code {
   padding: 2px 5px;
-  background-color: rgb(var(--gray-light));
+  background-color: var(--gray-light);
   border-radius: 2px;
 }
 pre {
@@ -124,7 +137,7 @@ blockquote {
 }
 hr {
   border: none;
-  border-top: 1px solid rgb(var(--gray-light));
+  border-top: 1px solid var(--gray-light);
 }
 @media (max-width: 720px) {
   body {
