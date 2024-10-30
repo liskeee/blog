@@ -1,3 +1,10 @@
+# [1.2.0](https://github.com/liskeee/blog/compare/v1.1.0...v1.2.0) (2024-10-30)
+
+
+### Features
+
+* semantic release unsquash ([a7875f0](https://github.com/liskeee/blog/commit/a7875f057ab8be62f5a8af0173075774fa850e08))
+
 # [1.1.0](https://github.com/liskeee/blog/compare/v1.0.0...v1.1.0) (2024-10-30)
 
 
