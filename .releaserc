@@ -1,4 +1,20 @@
 {
+  "branches": [
+    "main"
+  ],
+  "prepare": [
+    "@semantic-release/changelog",
+    "@semantic-release/npm",
+    {
+      "path": "@semantic-release/git",
+      "assets": [
+        "package.json",
+        "package-lock.json",
+        "CHANGELOG.md"
+      ],
+      "message": "chore(release): ${nextRelease.version}\n\n${nextRelease.notes}"
+    }
+  ],
   "plugins": [
     [
       "semantic-release-unsquash",
@@ -37,20 +53,5 @@
     "@semantic-release/github",
     "@semantic-release/npm",
     "@semantic-release/git"
-  ],
-  "release": {
-    "prepare": [
-      "@semantic-release/changelog",
-      "@semantic-release/npm",
-      {
-        "path": "@semantic-release/git",
-        "assets": [
-          "package.json",
-          "package-lock.json",
-          "CHANGELOG.md"
-        ],
-        "message": "chore(release): ${nextRelease.version}\n\n${nextRelease.notes}"
-      }
-    ]
-  }
+  ]
 }
