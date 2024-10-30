@@ -8,7 +8,8 @@
     "start": "astro dev",
     "build": "astro check && astro build",
     "preview": "astro preview",
-    "astro": "astro"
+    "astro": "astro",
+    "prepare": "husky install"
   },
   "dependencies": {
     "@astrojs/check": "^0.9.4",
@@ -21,8 +22,13 @@
   "devDependencies": {
     "@semantic-release/changelog": "^6.0.3",
     "@semantic-release/git": "^10.0.1",
+    "husky": ">=6",
+    "lint-staged": ">=10",
     "prettier": "^3.3.3",
     "prettier-plugin-astro": "^0.14.1",
     "semantic-release-unsquash": "^0.2.0"
+  },
+  "lint-staged": {
+    "*.{js,css,md,astro,json,mjs,ts,tsx}": "prettier --write"
   }
 }
