@@ -1,3 +1,22 @@
+# [1.3.0](https://github.com/liskeee/blog/compare/v1.2.4...v1.3.0) (2024-10-30)
+
+
+### Features
+
+* separate semantic config to .releaserc file ([018e36e](https://github.com/liskeee/blog/commit/018e36e5cd95b3acd5e5b6b54dec7c52b3ca35bc))
+* theme icon hover ([b4c7d1c](https://github.com/liskeee/blog/commit/b4c7d1c039612f0bdc9300393ffda30197f60afd))
+
+
+
+
+
+# [1.3.0](https://github.com/liskeee/blog/compare/v1.2.4...v1.3.0) (2024-10-30)
+
+
+### Features
+
+* separate semantic config to .releaserc file ([018e36e](https://github.com/liskeee/blog/commit/018e36e5cd95b3acd5e5b6b54dec7c52b3ca35bc))
+
 ## [1.2.4](https://github.com/liskeee/blog/compare/v1.2.3...v1.2.4) (2024-10-30)
 
 
