@@ -5,7 +5,7 @@ on:
     branches:
       - main
     tags-ignore:
-      - "**"
+      - '**'
 
 jobs:
   release:
@@ -20,7 +20,7 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: 20
-          cache: "yarn"
+          cache: 'yarn'
       - name: Install dependencies
         run: yarn install
       - name: Semantic release

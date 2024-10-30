@@ -21,6 +21,8 @@
   "devDependencies": {
     "@semantic-release/changelog": "^6.0.3",
     "@semantic-release/git": "^10.0.1",
+    "prettier": "^3.3.3",
+    "prettier-plugin-astro": "^0.14.1",
     "semantic-release-unsquash": "^0.2.0"
   }
 }

@@ -1,11 +1,13 @@
 ---
-import SocialLinks from "./SocialLinks.astro";
+import SocialLinks from './SocialLinks.astro';
 
 const today = new Date();
 ---
 
 <footer>
-  <div class="rights">&copy; {today.getFullYear()} Łukasz Lis. All rights reserved.</div>
+  <div class="rights">
+    &copy; {today.getFullYear()} Łukasz Lis. All rights reserved.
+  </div>
   <SocialLinks />
 </footer>
 <style>
