@@ -9,7 +9,7 @@ on:
 
 jobs:
   release:
-    if: github.ref_type == 'branch'
+    if: ! startsWith(github.event.head_commit.message, 'chore(release)')
     runs-on: ubuntu-latest
     permissions:
       contents: read
