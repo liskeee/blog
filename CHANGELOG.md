@@ -1,3 +1,17 @@
+# [1.5.0](https://github.com/liskeee/blog/compare/v1.4.1...v1.5.0) (2024-10-31)
+
+### Features
+
+- astro icons ([3842e37](https://github.com/liskeee/blog/commit/3842e371b4871b58b012c17dd899f2e59b979513))
+- replace homepage with blog index ([fd915eb](https://github.com/liskeee/blog/commit/fd915eb867257fd29508e22cae2685b872e90ec1))
+
+# [1.5.0](https://github.com/liskeee/blog/compare/v1.4.1...v1.5.0) (2024-10-31)
+
+### Features
+
+- astro icons ([3842e37](https://github.com/liskeee/blog/commit/3842e371b4871b58b012c17dd899f2e59b979513))
+- replace homepage with blog index ([fd915eb](https://github.com/liskeee/blog/commit/fd915eb867257fd29508e22cae2685b872e90ec1))
+
 ## [1.4.1](https://github.com/liskeee/blog/compare/v1.4.0...v1.4.1) (2024-10-30)
 
 ### Bug Fixes
