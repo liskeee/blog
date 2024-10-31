@@ -1,3 +1,15 @@
+# [1.6.0](https://github.com/liskeee/blog/compare/v1.5.0...v1.6.0) (2024-10-31)
+
+### Features
+
+- google analytics ([36158e6](https://github.com/liskeee/blog/commit/36158e6d63033950ee849bd77f24c0b64f5c397c))
+
+# [1.6.0](https://github.com/liskeee/blog/compare/v1.5.0...v1.6.0) (2024-10-31)
+
+### Features
+
+- google analytics ([36158e6](https://github.com/liskeee/blog/commit/36158e6d63033950ee849bd77f24c0b64f5c397c))
+
 # [1.5.0](https://github.com/liskeee/blog/compare/v1.4.1...v1.5.0) (2024-10-31)
 
 ### Features
