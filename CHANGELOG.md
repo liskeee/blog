@@ -1,3 +1,17 @@
+# [1.7.0](https://github.com/liskeee/blog/compare/v1.6.0...v1.7.0) (2024-10-31)
+
+### Features
+
+- astro compress ([8a59032](https://github.com/liskeee/blog/commit/8a59032566690c82f85625a643198152242ab3cd))
+- astro partytown ([018daed](https://github.com/liskeee/blog/commit/018daedce713038684b671f3fa12afbef3952e68))
+
+# [1.7.0](https://github.com/liskeee/blog/compare/v1.6.0...v1.7.0) (2024-10-31)
+
+### Features
+
+- astro compress ([8a59032](https://github.com/liskeee/blog/commit/8a59032566690c82f85625a643198152242ab3cd))
+- astro partytown ([018daed](https://github.com/liskeee/blog/commit/018daedce713038684b671f3fa12afbef3952e68))
+
 # [1.6.0](https://github.com/liskeee/blog/compare/v1.5.0...v1.6.0) (2024-10-31)
 
 ### Features
