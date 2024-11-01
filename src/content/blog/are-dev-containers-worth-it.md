@@ -1,5 +1,5 @@
 ---
-title: 'How to use Dev containers?'
+title: 'Are Dev Containers Worth It?'
 description: 'Unlock productivity with Dev Containers — learn what they are, how to use them, and why they are worth it.'
 pubDate: '2024-11-01'
 heroImage: '/covers/dev-containers.webp'
