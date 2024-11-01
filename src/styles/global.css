@@ -49,7 +49,7 @@ body {
   overflow-wrap: break-word;
   background: var(--body-background);
   color: var(--body-color);
-  font-size: 20px;
+  font-size: 18px;
   line-height: 1.7;
   display: flex;
   flex-direction: column;
@@ -170,4 +170,8 @@ hr {
   .only-desktop {
     display: none !important;
   }
+}
+
+pre.astro-code {
+  font-size: 14px;
 }
