@@ -1,3 +1,15 @@
+# [1.9.0](https://github.com/liskeee/blog/compare/v1.8.0...v1.9.0) (2024-11-01)
+
+### Features
+
+- **post:** dev containers title ([6f083ed](https://github.com/liskeee/blog/commit/6f083ed11fe4bde6229fe316efaa6f486e08ff09))
+
+# [1.9.0](https://github.com/liskeee/blog/compare/v1.8.0...v1.9.0) (2024-11-01)
+
+### Features
+
+- **post:** dev containers title ([6f083ed](https://github.com/liskeee/blog/commit/6f083ed11fe4bde6229fe316efaa6f486e08ff09))
+
 # [1.8.0](https://github.com/liskeee/blog/compare/v1.7.0...v1.8.0) (2024-11-01)
 
 ### Features
