@@ -1,3 +1,19 @@
+# [1.8.0](https://github.com/liskeee/blog/compare/v1.7.0...v1.8.0) (2024-11-01)
+
+### Features
+
+- add aria lable to theme button ([99e188a](https://github.com/liskeee/blog/commit/99e188a5099cb365db1a12016aad679de1c72163))
+- blog index redirect ([9423bec](https://github.com/liskeee/blog/commit/9423bec8fa69e54ffbb3080afea25b2e04bff3f4))
+- **post:** dev containers ([bb8257f](https://github.com/liskeee/blog/commit/bb8257f4a0428210d66d3278afb82a112092dd15))
+
+# [1.8.0](https://github.com/liskeee/blog/compare/v1.7.0...v1.8.0) (2024-11-01)
+
+### Features
+
+- add aria lable to theme button ([99e188a](https://github.com/liskeee/blog/commit/99e188a5099cb365db1a12016aad679de1c72163))
+- blog index redirect ([9423bec](https://github.com/liskeee/blog/commit/9423bec8fa69e54ffbb3080afea25b2e04bff3f4))
+- **post:** dev containers ([bb8257f](https://github.com/liskeee/blog/commit/bb8257f4a0428210d66d3278afb82a112092dd15))
+
 # [1.7.0](https://github.com/liskeee/blog/compare/v1.6.0...v1.7.0) (2024-10-31)
 
 ### Features
