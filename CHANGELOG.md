@@ -1,3 +1,15 @@
+## [1.10.2](https://github.com/liskeee/blog/compare/v1.10.1...v1.10.2) (2024-11-02)
+
+### Bug Fixes
+
+- main style ([721d587](https://github.com/liskeee/blog/commit/721d587e9b16002a542d148884e4ae20273536e5))
+
+## [1.10.2](https://github.com/liskeee/blog/compare/v1.10.1...v1.10.2) (2024-11-02)
+
+### Bug Fixes
+
+- main style ([721d587](https://github.com/liskeee/blog/commit/721d587e9b16002a542d148884e4ae20273536e5))
+
 ## [1.10.1](https://github.com/liskeee/blog/compare/v1.10.0...v1.10.1) (2024-11-02)
 
 ### Bug Fixes
