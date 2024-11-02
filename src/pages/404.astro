@@ -1,0 +1,27 @@
+---
+import { Icon } from 'astro-icon/components';
+import Layout from '../layouts/Layout.astro';
+---
+
+<Layout title="404 - Not found" description="Not found">
+  <style slot="head">
+    .page_404 {
+      text-align: center;
+      font-size: 2rem;
+    }
+    .page_404 h1 {
+      display: inline-flex;
+    }
+    .page_404 h1 [data-icon] {
+      margin-right: 1rem;
+    }
+  </style>
+  <section class="page_404">
+    <h1>
+      <Icon name="mdi:closed-circuit-television" />
+      <span>404</span>
+    </h1>
+    <p>Looks like you're lost.</p>
+    <p><a href="/">Go back home</a></p>
+  </section>
+</Layout>
