@@ -7,12 +7,18 @@ heroImage: '/covers/dev-containers.webp'
 
 ## Introduction
 
-In today's fast-paced software development landscape, the need for consistent and reproducible development environments has never been greater.
-Whether you're a solo developer or part of a large team, Dev Containers can streamline your workflow, eliminate the classic "works on my machine" problem (a phrase I admit I've used myself), and accelerate project onboarding.
+In today's software development world, it's more important than ever to have consistent and reproducible development environments.
+Whether you're working alone or with a large team, getting rid of the classic
+
+> It works on my machine ¯\_(ツ)\_/¯
+
+problem (something I've said myself many times) is a big advantage.
+
+**Dev Containers** are a powerful tool that can help you achieve this.
 
 ## What actually are Dev Containers?
 
-Dev Containers are containerized development environments that includes all the tools, runtimes, libraries, and configurations needed for a project by using a single configuration file.
+They're containerized development environments that includes all the tools, runtimes, libraries, and configurations needed for a project by using a single configuration file.
 
 ### Key Benefits
 
@@ -30,11 +36,11 @@ Tools like **Visual Studio Code (VS Code)** or **IntelliJ IDEA** can then connec
 
 - [Docker](https://www.docker.com/)
 
-That's it! You don't need to install any additional software or dependencies aside of IDE which supports dev containers.
+That's it! You don't need to install any additional software or dependencies aside of IDE which supports **Dev Containers**.
 
 ## Getting Started
 
-I'll be using [Visual Studio Code](https://code.visualstudio.com/) because it's free, open-source, and has excellent support for Dev Containers.
+I'll be using [Visual Studio Code](https://code.visualstudio.com/) because it's free, open-source, and has excellent support for **Dev Containers**.
 As a sample project, I'll use the free Astro theme [dante-astro-theme](https://github.com/JustGoodUI/dante-astro-theme) so be aware that for you some steps may be different.
 
 1. Open your project in VS Code.
@@ -103,9 +109,9 @@ If you need to run additional commands after the container is created, you can u
 }
 ```
 
-### Extensions (VS Code only)
+### Extensions
 
-You can install additional VS Code extensions inside the container by adding the following configuration:
+You can define for example VS Code extensions inside the container by adding the following configuration:
 
 ```json
 {
@@ -136,20 +142,22 @@ Remember to rebuild the container after making changes to the configuration file
 
 ![Open Remote Explorer](/images/dev-containers/10.png)
 
-- **Reopen in Container**: Reopen the project in the container.
-- **Rebuild Container**: Rebuild the container.
-- **Remove Container**: Removes the container.
+You can for example:
+
+- **Reopen in Container**
+- **Rebuild Container**
+- **Remove Container**
 
 ## Additional informations
 
-- Because Dev Containers are based on Docker, you can use any Docker image as a base for your project, but only on linux-based systems.
-- You can write your own Dockerfile and use it as a base for your project.
-- You can use Docker Compose to define multi-container applications.
-- You don't need to worry about Git credentials because they are shared between your local machine and the container.
+- **Linux-Based Environment**: Your development environment should be based on a Linux system
+- **Custom Dockerfile**: You can create your own Dockerfile to serve as the foundation for your project
+- **Multi-Container Applications**: Use Docker Compose to define applications that run across multiple containers
+- **Shared Git Credentials**: No need to worry about Git credentials—they're shared between your local machine and the container
 
 ## Conclusion
 
-To be honest, I've never used Dev Containers before, and I'm impressed by how easy they are to set up and how much they can improve the development workflow. Especially for new team members, it can be a game-changer because they don't need to install anything on their local machine or spend many hours reading the documentation and setting up the environment.
+To be honest, I've never used **Dev Containers** before, and I'm impressed by how easy they are to set up and how much they can improve the development workflow. Especially for new team members, it can be a game-changer because they don't need to install anything on their local machine or spend many hours reading the documentation and setting up the environment.
 
 Of course, you need to spend some time setting up the configuration file, but usually, it's a one-time task with many benefits.
 
