@@ -1,36 +1,36 @@
 ---
-import Layout from '../layouts/BlogPost.astro';
+import BlogPost from '../layouts/BlogPost.astro';
 ---
 
-<Layout
+<BlogPost
   title="About Me"
   description="Lorem ipsum dolor sit amet"
   pubDate={new Date('2024-11-01')}
   heroImage="/about.webp"
 >
-  <style slot="head">
+  <style>
     .about {
       max-width: 800px;
       margin: 0 auto;
       font-family: Arial, sans-serif;
     }
-
     .about h1 {
       font-size: 2.5rem;
       margin-bottom: 1rem;
     }
-
     .about p {
       font-size: 1.2rem;
       line-height: 1.6;
       margin-bottom: 1rem;
     }
   </style>
-  <section class="about">
-    <p>Howdy! I'm a fullstack developer with a passion for DevOps and a love for self-hosted solutions.</p>
-    <p>
-      I enjoy automating workflows, deploying scalable applications, and exploring the latest in cloud technologies.
-    </p>
-    <p>When I'm not coding, you'll find me tinkering inside my homelab.</p>
-  </section>
-</Layout>
+  <main>
+    <section class="about">
+      <p>Howdy! I'm a fullstack developer with a passion for DevOps and a love for self-hosted solutions.</p>
+      <p>
+        I enjoy automating workflows, deploying scalable applications, and exploring the latest in cloud technologies.
+      </p>
+      <p>When I'm not coding, you'll find me tinkering inside my homelab.</p>
+    </section>
+  </main>
+</BlogPost>
