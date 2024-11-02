@@ -1,3 +1,15 @@
+# [1.10.0](https://github.com/liskeee/blog/compare/v1.9.0...v1.10.0) (2024-11-02)
+
+### Features
+
+- sitemap and robots.txt ([91d5a2b](https://github.com/liskeee/blog/commit/91d5a2ba59f241a997c268e123b5bb378d75b57b))
+
+# [1.10.0](https://github.com/liskeee/blog/compare/v1.9.0...v1.10.0) (2024-11-02)
+
+### Features
+
+- sitemap and robots.txt ([91d5a2b](https://github.com/liskeee/blog/commit/91d5a2ba59f241a997c268e123b5bb378d75b57b))
+
 # [1.9.0](https://github.com/liskeee/blog/compare/v1.8.0...v1.9.0) (2024-11-01)
 
 ### Features
